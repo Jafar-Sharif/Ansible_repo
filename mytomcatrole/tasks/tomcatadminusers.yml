@@ -16,5 +16,5 @@
 
 - name: tomcat hostcontext xml file into nodes
   template:
-      src: tomhostcontext.j2
+      src: templates/tomhostcontext.j2
       dest: /opt/tomcat/webapps/host-manager/META-INF/context.xml
