@@ -1,6 +1,6 @@
 ---
 # tasks file for mytomcatrole
-- include_task: toadduser.yml
+- include_tasks: toadduser.yml
 - include_tasks: toinstalljava.yml
 - include_tasks: toinstalltomcat.yml
 - include_tasks: permissions.yml
